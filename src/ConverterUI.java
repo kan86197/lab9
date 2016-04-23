@@ -144,6 +144,11 @@ public class ConverterUI extends JFrame {
 		}
 		@Override
 		public void keyPressed(KeyEvent arg0) {
+
+		}
+
+		@Override
+		public void keyReleased(KeyEvent arg0) {
 			if(leftRadioButton.isSelected()){
 				String s = inputField.getText().trim();
 				if( s.length() > 0){
@@ -171,11 +176,6 @@ public class ConverterUI extends JFrame {
 					}
 				}
 			}
-		}
-
-		@Override
-		public void keyReleased(KeyEvent arg0) {
-
 
 		}
 
